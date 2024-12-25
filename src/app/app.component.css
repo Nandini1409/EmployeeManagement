@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #4169e1; /* Light Royal Blue */
+    color: white; /* Ensures text is readable */
+    border-bottom: none; /* Removes border */
+  }
+  
+  .navbar .nav-link {
+    
+    color: black; /* Light text for contrast */
+    font-size: 23px;
+  }
+  
+  .navbar .nav-link:hover, 
+  .navbar .nav-link.active {
+    color: black; /* Softer blue on hover/active */
+  }
+
+  .nav-item {
+    margin-top: 20px; /* Adjust value as needed */
+  }
+  
+  .footer {
+    background-color: #4169e1; /* Matches the header */
+    color: #f8f9fa; /* Light text */
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: none; /* No border for a clean look */
+  }
+  
+  .footer span {
+    font-weight: 500;
+  }
+  
+  

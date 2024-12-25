@@ -1,0 +1,59 @@
+form {
+    margin: 2rem auto; /* Centers the form and adds spacing */
+    padding: 2rem; /* Adds internal spacing */
+    max-width: 50%; /* Restricts form width */
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #dee2e6; /* Subtle border for definition */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+  }
+  
+  h3 {
+    text-align: center; /* Centers the heading */
+    color: #4169e1; /* Light royal blue for heading */
+    margin-bottom: 1.5rem; /* Adds spacing below the title */
+    margin-top: 1.5rem; /* Adds spacing below the title */
+    font-weight: 600; /* Slightly boldens the heading */
+  }
+  
+  form div {
+    margin-bottom: 1.5rem; /* Adds spacing between form groups */
+  }
+  
+  form label {
+    font-weight: 600; /* Boldens labels */
+    margin-bottom: 0.5rem; /* Adds spacing below labels */
+    display: block; /* Ensures the label is above the input */
+    color: #495057; /* Neutral gray color for labels */
+  }
+  
+  .form-control {
+    width: 100%; /* Ensures inputs take full width */
+    padding: 0.75rem; /* Adds internal spacing */
+    border: 1px solid #ced4da; /* Subtle border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 1rem; /* Adjusts font size */
+  }
+  
+  .form-control:focus {
+    border-color: #4169e1; /* Royal blue border on focus */
+    box-shadow: 0 0 5px rgba(65, 105, 225, 0.5); /* Adds a glow effect */
+  }
+  
+  button {
+    display: block; /* Centers the button */
+    width: 100%; /* Full-width button */
+    padding: 0.75rem; /* Adds padding */
+    font-size: 1rem; /* Adjusts font size */
+    color: white; /* White text */
+    background-color: #28a745; /* Green background for success */
+    border: none; /* Removes border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor for hover */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  

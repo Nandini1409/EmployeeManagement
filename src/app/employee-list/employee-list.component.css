@@ -1,0 +1,43 @@
+/* Add some padding to the table */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  /* Add a border and padding to table cells */
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Add background color to table header */
+  .table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Add hover effect to rows */
+  .table tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add some margin around the table */
+  .table-container {
+    margin: 20px;
+  }
+  
+  /* Styling for table headings */
+  th {
+    font-size: 1.2em;
+  }
+
+  h3 {
+    text-align: center; /* Centers the heading */
+    color: #4169e1; /* Light royal blue for heading */
+    margin-bottom: 1.5rem; /* Adds spacing below the title */
+    font-weight: 600; /* Slightly boldens the heading */
+  }
+  
